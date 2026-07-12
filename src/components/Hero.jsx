@@ -263,8 +263,8 @@ export default function Hero() {
 
             <motion.div variants={itemVariants} className="hero-actions">
               <a
-                href="/Chamundeswari_Amisetty_Resume.pdf"
-                download="Chamundeswari_Amisetty_Resume.pdf"
+                href="/Resume.pdf"
+                download="Resume.pdf"
                 className="btn btn-primary"
               >
                 <Download size={18} />
