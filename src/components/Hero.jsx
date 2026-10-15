@@ -258,13 +258,13 @@ export default function Hero() {
             </motion.h2>
 
             <motion.p variants={itemVariants} className="hero-tagline">
-              Building scalable, high-performance, and user-friendly web applications using React.js, Node.js, Express.js, and MongoDB. Committed to clean code, component reusability, and professional UI/UX standards.
+              Computer Science graduate and MERN stack developer with three internships and two full-stack projects. Skilled in React.js, Node.js, Express.js, MongoDB, and REST APIs, with working knowledge of AWS, Docker, and CI/CD. Seeking an entry-level software engineer role to build reliable, user-focused web applications.
             </motion.p>
 
             <motion.div variants={itemVariants} className="hero-actions">
               <a
-                href="/Resume.pdf"
-                download="Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Resume.pdf`}
+                download="Chamundeswari_Ammisetty_Resume.pdf"
                 className="btn btn-primary"
               >
                 <Download size={18} />
@@ -290,7 +290,7 @@ export default function Hero() {
 
             <motion.div variants={itemVariants} className="metrics-bar">
               <div className="metric-item">
-                <span className="metric-value">8.39</span>
+                <span className="metric-value">8.3</span>
                 <span className="metric-label">B.Tech CGPA</span>
               </div>
               <div className="metric-item">
@@ -298,12 +298,12 @@ export default function Hero() {
                 <span className="metric-label">Internships</span>
               </div>
               <div className="metric-item">
-                <span className="metric-value">12+</span>
-                <span className="metric-label">Certifications</span>
+                <span className="metric-value">2</span>
+                <span className="metric-label">Full-Stack Projects</span>
               </div>
               <div className="metric-item">
-                <span className="metric-value">8+</span>
-                <span className="metric-label">Projects Built</span>
+                <span className="metric-value">7+</span>
+                <span className="metric-label">Certifications</span>
               </div>
             </motion.div>
           </motion.div>

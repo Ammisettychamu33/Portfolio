@@ -4,35 +4,31 @@ import { motion } from 'framer-motion';
 
 const internships = [
   {
-    role: 'Frontend Developer & UI Designer',
+    role: 'Development Intern – Internship 6.0 (B2)',
     company: 'Infosys Springboard',
-    program: 'Virtual Internship 6.0',
-    duration: 'Ongoing / Recent',
-    project: 'Clean Street - Civic Issue Reporting Application',
+    duration: 'Sep 2025 – Nov 2025',
+    project: 'Civic Issue Reporting & Tracking Application',
     bulletPoints: [
-      'Designed high-fidelity user interfaces utilizing responsive layouts to maximize mobile accessibility.',
-      'Developed modular, reusable React frontend components with predictable application states.',
-      'Collaborated on REST API definitions and successfully integrated UI components with data layers.'
+      'Contributed to a Civic Issue Reporting & Tracking Application for registering and tracking civic complaints.',
+      'Designed responsive UI screens and developed reusable React.js components for the application frontend.',
+      'Contributed to frontend application workflows and integration with project APIs and data requirements.'
     ]
   },
   {
-    role: 'Web Development Intern',
-    company: 'Elewayte',
-    duration: 'June 2024 - July 2024',
+    role: 'Front-End Development Intern',
+    company: 'InLighnX Global Pvt. Ltd.',
+    duration: 'Jul 2025 – Aug 2025',
     bulletPoints: [
-      'Engineered interactive web components using modern ES6+ Javascript and optimized layouts.',
-      'Analyzed page speed performance metrics, improving asset delivery speeds and responsiveness.',
-      'Collaborated on cross-browser compatibility checks, ensuring a seamless user experience.'
+      'Developed a responsive portfolio website with dark/light mode, smooth scrolling, project showcase, contact form, and Google Maps integration, hosted on GitHub Pages.',
+      'Built a responsive To-Do List application and an Interactive Quiz application with task management, real-time scoring, and restart functionality.'
     ]
   },
   {
-    role: 'Python Intern',
-    company: 'OctaNet',
-    duration: 'April 2024 - May 2024',
+    role: 'AWS Cloud & DevOps Intern',
+    company: 'Datavalley India Pvt. Ltd.',
+    duration: 'Dec 2025',
     bulletPoints: [
-      'Implemented foundational backend scripts, data structures, and automation utilities using Python.',
-      'Built clean command line interfaces and worked on scripting file system input/output tasks.',
-      'Adopted Git version control and followed professional documentation guidelines.'
+      'Selected for an internship focused on AWS Cloud & DevOps, gaining practical exposure to cloud technologies, containerization, and deployment workflows.'
     ]
   }
 ];

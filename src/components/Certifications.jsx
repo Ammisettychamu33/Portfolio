@@ -3,20 +3,14 @@ import { Award, CheckCircle, ExternalLink, ShieldCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const certificationsList = [
-  { title: 'NodeJS Essentials', issuer: 'Infosys Springboard', category: 'backend' },
-  { title: 'MongoDB Certification', issuer: 'Infosys Springboard', category: 'database' },
-  { title: 'TypeScript Certification', issuer: 'Infosys Springboard', category: 'frontend' },
-  { title: 'Angular Intermediate', issuer: 'Infosys Springboard', category: 'frontend' },
-  { title: 'Python Foundation', issuer: 'Infosys Springboard', category: 'languages' },
-  
-  { title: 'Node.js Certification', issuer: 'NxtWave', category: 'backend' },
-  { title: 'JavaScript Essentials', issuer: 'NxtWave', category: 'languages' },
-  { title: 'Responsive Web Design', issuer: 'NxtWave', category: 'frontend' },
-  { title: 'Database Fundamentals', issuer: 'NxtWave', category: 'database' },
-  
-  { title: 'Full Stack Web Development', issuer: 'GeeksforGeeks SkillUp', category: 'fullstack' },
-  { title: 'SQL Basic', issuer: 'HackerRank', category: 'database' },
-  { title: 'AWS Cloud Computing', issuer: 'APSSDC', category: 'cloud' }
+  { title: 'CCBP Intensive – Full Stack Development with MERN', issuer: 'NxtWave, 2026', category: 'fullstack' },
+  { title: 'React JS & JavaScript Essentials', issuer: 'NxtWave (CCBP 4.0), 2026', category: 'frontend' },
+  { title: 'Node JS & Introduction to Databases', issuer: 'NxtWave (CCBP 4.0), 2026', category: 'backend' },
+  { title: 'Full Stack Web Development – Skill Up', issuer: 'GeeksforGeeks & Nation SkillUp', category: 'fullstack' },
+  { title: 'TypeScript Certification', issuer: 'Infosys Springboard, 2025', category: 'frontend' },
+  { title: 'ExpressJS Essential Training', issuer: 'Infosys Navigate Your Next, 2024', category: 'backend' },
+  { title: 'MongoDB Certification', issuer: 'Infosys Springboard, 2024', category: 'database' },
+  { title: 'SQL (Basic) Certification', issuer: 'HackerRank, 2024', category: 'database' }
 ];
 
 export default function Certifications() {
@@ -137,7 +131,7 @@ export default function Certifications() {
             onClick={() => setFilter('all')}
             className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
           >
-            All (12)
+            All ({certificationsList.length})
           </button>
           <button
             onClick={() => setFilter('infosys')}

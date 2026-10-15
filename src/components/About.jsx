@@ -143,13 +143,13 @@ export default function About() {
               Engineering Scalable Solutions
             </h3>
             <p className="about-p">
-              I am a Computer Science Engineering student passionate about Full Stack Development and building real-world applications using modern web technologies. My technical journey is focused on mastering the MERN stack to deliver robust solutions.
+              I am a Computer Science graduate and MERN stack developer with three internships and two full-stack projects. Skilled in React.js, Node.js, Express.js, MongoDB, and REST APIs, with working knowledge of AWS, Docker, and CI/CD. Seeking an entry-level software engineer role to build reliable, user-focused web applications.
             </p>
             <div className="about-highlight-box">
-              "Fascinated by the intersection of front-end responsiveness and backend reliability, I strive to design applications that provide seamless user experiences."
+              "Driven by building scalable MERN web applications with modular components, secure RESTful APIs, and efficient cloud & container deployments."
             </div>
             <p className="about-p">
-              I emphasize writing clean, modular code, designing efficient databases, and implementing standard software design practices. Through continuous learning, I quickly adapt to new tools and frameworks.
+              I focus on writing clean, maintainable code, designing scalable database models in MongoDB and MySQL, and integrating frontend workflows with robust backend APIs tested via Postman and Docker.
             </p>
 
             <div className="about-qualities-grid">

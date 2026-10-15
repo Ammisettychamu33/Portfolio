@@ -182,7 +182,7 @@ export default function Education() {
 
             <div className="edu-timeline">
               <Clock size={16} />
-              <span>Graduation Expected: 2026</span>
+              <span>2022 – 2026</span>
             </div>
 
             <div className="coursework-section">
@@ -210,7 +210,7 @@ export default function Education() {
           >
             <h3 style={{ fontSize: '1.2rem', fontWeight: 700 }}>Academic Performance</h3>
             <div className="gpa-circle-container">
-              <span className="gpa-value">8.39</span>
+              <span className="gpa-value">8.3</span>
               <span className="gpa-max">/ 10 CGPA</span>
             </div>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', maxWidth: '200px' }}>

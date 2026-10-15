@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Github, Linkedin, Send, MapPin, CheckCircle, AlertTriangle } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, MapPin, Phone, CheckCircle, AlertTriangle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Contact() {
@@ -203,11 +203,23 @@ export default function Contact() {
 
                 <div className="contact-detail-item">
                   <div className="contact-icon-box">
+                    <Phone size={20} />
+                  </div>
+                  <div>
+                    <div className="contact-label">Phone Number</div>
+                    <a href="tel:+919032149346" className="contact-value">
+                      +91 9032149346
+                    </a>
+                  </div>
+                </div>
+
+                <div className="contact-detail-item">
+                  <div className="contact-icon-box">
                     <MapPin size={20} />
                   </div>
                   <div>
                     <div className="contact-label">Location</div>
-                    <div className="contact-value">Andhra Pradesh, India</div>
+                    <div className="contact-value">Chilakaluripet, Andhra Pradesh, 522616</div>
                   </div>
                 </div>
               </div>

@@ -5,80 +5,69 @@ import { motion, AnimatePresence } from 'framer-motion';
 const projectsList = [
   {
     id: 1,
-    title: 'Muzik - MERN Music Streaming Platform',
+    title: 'Muzic – Music Streaming Platform',
     category: 'fullstack',
-    badge: 'Full-Stack',
-    desc: 'A full-stack music streaming application that allows users to browse albums, artists, and songs with an interactive user interface. Engineered REST APIs for audio streaming and database queries.',
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
+    badge: 'Core MERN Project',
+    desc: 'Developed and deployed a full-stack music streaming application with the MERN stack, using responsive React.js interfaces and reusable components. Implemented JWT authentication, protected routes, and user-specific features including music playback, search, and collections. Built album and artist management backed by MongoDB and integrated RESTful APIs with Express.js tested via Postman.',
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST APIs', 'Postman'],
     icon: <Music size={32} className="project-preview-icon text-gradient" />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    github: 'https://github.com/Ammisettychamu33/Muzic_WebApplication',
+    demo: 'https://github.com/Ammisettychamu33/Muzic_WebApplication'
   },
   {
     id: 2,
-    title: 'Clean Street - Civic Issue Tracker',
+    title: 'Enterprise CMS & Dynamic Content Platform',
     category: 'fullstack',
-    badge: 'Infosys Internship',
-    desc: 'A web application that helps citizens report and track local civic issues. Developed custom UI designs, modular frontend state, and API routing as part of the Infosys Springboard internship.',
-    tech: ['React.js', 'MongoDB', 'REST APIs', 'UI/UX Design'],
-    icon: <MapPin size={32} className="project-preview-icon text-gradient" />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    badge: 'Decoupled Architecture',
+    desc: 'Built a full-stack content management platform with a decoupled architecture: separate Admin CMS, Public Web Application, and Express REST API service. Developed frontends with React.js and Redux Toolkit with dynamic content block rendering. Implemented JWT authentication and CRUD APIs with Node.js/Express and MongoDB/Mongoose, containerized with Docker & Docker Compose.',
+    tech: ['React.js', 'Redux Toolkit', 'Node.js', 'Express.js', 'MongoDB', 'Docker', 'Postman'],
+    icon: <Grid size={32} className="project-preview-icon text-gradient" />,
+    github: 'https://github.com/Ammisettychamu33/Enterprise-CMS-Dynamic-Content-Platform',
+    demo: 'https://github.com/Ammisettychamu33/Enterprise-CMS-Dynamic-Content-Platform'
   },
   {
     id: 3,
-    title: 'Smart Complaint Management System',
-    category: 'frontend',
-    badge: 'Database Project',
-    desc: 'A robust administration system designed to submit, log, track, and manage organizational complaints efficiently with an interactive dashboard and backend query processing.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'SQL'],
-    icon: <ShieldAlert size={32} className="project-preview-icon text-gradient" />,
+    title: 'Civic Issue Reporting & Tracking Application',
+    category: 'fullstack',
+    badge: 'Infosys Springboard',
+    desc: 'Contributed to a Civic Issue Reporting & Tracking Application for registering and tracking civic complaints. Designed responsive UI screens and developed reusable React.js components for the application frontend, integrating application workflows with project APIs and data requirements.',
+    tech: ['React.js', 'REST APIs', 'UI/UX Design', 'Modular Components'],
+    icon: <MapPin size={32} className="project-preview-icon text-gradient" />,
     github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    demo: 'https://github.com/Ammisettychamu33'
   },
   {
     id: 4,
-    title: 'Interactive Match Game',
+    title: 'Interactive Quiz Application',
     category: 'utility',
-    badge: 'Frontend Skill-builder',
-    desc: 'A classic grid memory game built to showcase advanced React state management, performance rendering, and clean micro-animations.',
-    tech: ['React.js', 'JavaScript', 'CSS3'],
-    icon: <Gamepad2 size={28} className="project-preview-icon" style={{ color: 'var(--secondary)' }} />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    badge: 'InLighnX Global Intern',
+    desc: 'Built a responsive interactive quiz application featuring dynamic countdown timers, task management, real-time score calculation, and instant restart functionality. Hosted live on GitHub Pages.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Pages'],
+    icon: <Compass size={28} className="project-preview-icon" style={{ color: 'var(--primary)' }} />,
+    github: 'https://github.com/Ammisettychamu33/Interactive-Quiz-Application',
+    demo: 'https://ammisettychamu33.github.io/Interactive-Quiz-Application/'
   },
   {
     id: 5,
-    title: 'Secure Password Generator',
+    title: 'Responsive To-Do List Application',
     category: 'utility',
-    badge: 'Utility Tool',
-    desc: 'A client-side security utility featuring custom password parameters, copy-to-clipboard APIs, and strength assessment meters.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
-    icon: <Award size={28} className="project-preview-icon" style={{ color: 'var(--accent)' }} />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    badge: 'InLighnX Global Intern',
+    desc: 'Developed a task management and organization tool with real-time status updates, task filtering, clean responsive styling, and persistent browser storage. Hosted live on GitHub Pages.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'GitHub Pages'],
+    icon: <Award size={28} className="project-preview-icon" style={{ color: 'var(--secondary)' }} />,
+    github: 'https://github.com/Ammisettychamu33/To-Do-List-Application',
+    demo: 'https://ammisettychamu33.github.io/To-Do-List-Application/'
   },
   {
     id: 6,
-    title: 'Multi-Unit Converter',
-    category: 'utility',
-    badge: 'Utility Tool',
-    desc: 'A responsive conversion application handling real-time unit translation calculations for weight, length, and temperature.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
+    title: 'Responsive Portfolio Website',
+    category: 'frontend',
+    badge: 'Live Showcase',
+    desc: 'Developed a modern, responsive portfolio website featuring dark/light aesthetics, smooth scrolling navigation, project showcases, interactive contact workflow, and Google Maps integration.',
+    tech: ['React.js', 'Vite', 'Framer Motion', 'Lucide React', 'GitHub Pages'],
     icon: <RefreshCw size={28} className="project-preview-icon" style={{ color: 'var(--secondary)' }} />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
-  },
-  {
-    id: 7,
-    title: 'Interactive Quiz Application',
-    category: 'utility',
-    badge: 'Frontend Skill-builder',
-    desc: 'A fully interactive quiz application designed with countdown timers, dynamic score tabulations, and performance reviews.',
-    tech: ['HTML5', 'CSS3', 'JavaScript'],
-    icon: <Compass size={28} className="project-preview-icon" style={{ color: 'var(--primary)' }} />,
-    github: 'https://github.com/Ammisettychamu33',
-    demo: '#'
+    github: 'https://github.com/Ammisettychamu33/Portfolio',
+    demo: 'https://ammisettychamu33.github.io/Portfolio/'
   }
 ];
 

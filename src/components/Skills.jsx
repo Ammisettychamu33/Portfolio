@@ -7,39 +7,41 @@ const skillsData = [
     category: 'Frontend Development',
     icon: <Layout size={20} className="skill-cat-icon text-gradient" />,
     skills: [
-      { name: 'React.js', level: '90%' },
-      { name: 'JavaScript (ES6+)', level: '85%' },
-      { name: 'TypeScript', level: '75%' },
-      { name: 'HTML5 / CSS3', level: '95%' },
-      { name: 'Bootstrap', level: '90%' }
+      { name: 'React.js & React Hooks', level: '92%' },
+      { name: 'JavaScript (ES6+)', level: '90%' },
+      { name: 'Redux Toolkit', level: '85%' },
+      { name: 'HTML5 & CSS3', level: '95%' },
+      { name: 'Bootstrap & Responsive Design', level: '92%' }
     ]
   },
   {
     category: 'Backend & APIs',
     icon: <Server size={20} className="skill-cat-icon text-gradient" />,
     skills: [
-      { name: 'Node.js', level: '80%' },
-      { name: 'Express.js', level: '85%' },
-      { name: 'RESTful APIs', level: '90%' },
-      { name: 'JWT Authentication', level: '80%' }
+      { name: 'Node.js', level: '85%' },
+      { name: 'Express.js', level: '88%' },
+      { name: 'RESTful APIs', level: '92%' },
+      { name: 'JWT Authentication', level: '85%' },
+      { name: 'Python', level: '80%' }
     ]
   },
   {
-    category: 'Database Management',
+    category: 'Databases',
     icon: <Database size={20} className="skill-cat-icon text-gradient" />,
     skills: [
-      { name: 'MongoDB', level: '85%' },
-      { name: 'SQL', level: '80%' }
+      { name: 'MongoDB & Mongoose', level: '90%' },
+      { name: 'SQL & MySQL', level: '85%' }
     ]
   },
   {
-    category: 'Developer Tools',
+    category: 'Cloud, DevOps & Tools',
     icon: <Terminal size={20} className="skill-cat-icon text-gradient" />,
     skills: [
-      { name: 'Git & GitHub', level: '85%' },
-      { name: 'VS Code', level: '90%' },
-      { name: 'Postman', level: '85%' },
-      { name: 'Responsive Web Design', level: '95%' }
+      { name: 'Git & GitHub', level: '90%' },
+      { name: 'Docker & Containers', level: '80%' },
+      { name: 'AWS Cloud', level: '78%' },
+      { name: 'CI/CD & Deployment', level: '80%' },
+      { name: 'Postman & VS Code', level: '92%' }
     ]
   }
 ];
